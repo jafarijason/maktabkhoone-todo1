@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "homepage": "https://thisisjasonjafari.github.io/maktabkhoone-todo",
+  "private": true,
+  "dependencies": {
+    "css": "^2.2.4",
+    "jquery": "^3.3.1",
+    "mobx": "^5.6.0",
+    "mobx-react": "^5.3.6",
+    "react": "^16.6.3",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.6.3",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "1.x",
+    "style": "^0.0.3"
+  },
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  }
+}
